@@ -12,27 +12,53 @@
 		<script src="../three.js-master/build/three.js"></script>
 		<script>
 			// Our Javascript will go here.
+
+			//ADD SCENE CAMERA AND RENDERER
 			var scene = new THREE.Scene();
-var camera = new THREE.PerspectiveCamera(75, 
-window.innerWidth/window.innerHeight, 0.1, 1000);
+			var camera = new THREE.PerspectiveCamera(75, 
+			window.innerWidth/window.innerHeight, 0.1, 1000);
 
-var renderer = new THREE.WebGLRenderer();
-renderer.setSize(window.innerWidth, window.innerHeight);
-document.body.appendChild(renderer.domElement);
+			var renderer = new THREE.WebGLRenderer();
+			renderer.setSize(window.innerWidth, window.innerHeight);
+			document.body.appendChild(renderer.domElement);
 
+			//add three.js geometry
+			var geometry = new THREE.BoxGeometry();
+			var material = new THREE.MeshBasicMaterial( {color: 0xffe6e6} );
+     		var cube = new THREE.Mesh(geometry, material);
+			scene.add(cube);
+			camera.position.z = 5; //this moves the camera towards the viewer
 
-var geometry = new THREE.BoxGeometry();
-var material = new THREE.MeshBasicMaterial( {color: 0x00ff00} );
-     	var cube = new THREE.Mesh(geometry, material);
-scene.add(cube);
-camera.position.z = 5; //this moves the camera towards the viewer
+			//second cube
+			var geometry2 = new THREE.BoxGeometry();
+			var material2 = new THREE.MeshBasicMaterial( {color: 0xccffe6} );
+			var cube2 = new THREE.Mesh(geometry2, material2);
+			cube2.position.set( 4, 0, 0 );
+			scene.add(cube2);
 
+			//third cube
+			var geometry3 = new THREE.BoxGeometry();
+			var material3 = new THREE.MeshBasicMaterial( {color: 0x0A0E65} );
+			var cube3 = new THREE.Mesh(geometry3, material3);
+			cube3.position.set( -4 , 0, 0 );
+			scene.add(cube3);
 
-function animate() {
-requestAnimationFrame(animate);
-renderer.render(scene, camera);
-}
-animate();
+			//call renderer
+			function animate() 
+			{
+				requestAnimationFrame(animate);
+				renderer.render(scene, camera);
+				geometry.rotateX(0.01);
+				geometry.rotateY(0.01);
+				geometry2.translate(-0.01,-0.001,-0.001)
+				geometry2.rotateZ(0.01);
+				geometry3.rotateX(-0.1);
+				geometry3.rotateY(-0.1);
+				geometry3.rotateZ(0.5);
+			}
+			animate();
+
+		
 
 		</script>
 	</body>

@@ -1,2 +1,2 @@
-<img src ="Images/github-part2image.png.png">
+![](images/github-part2image.png)
 hi

@@ -26,18 +26,74 @@ src="../three.js-master/examples/js/loaders/GLTFLoader.js"></script>
       scene.add(light);
 
       var loader = new THREE.GLTFLoader();
-loader.load('dog.glb', function (gltf) {
-scene.add(gltf.scene);
-}, function (xhr) {
-console.log((xhr.loaded / xhr.total * 100) + '% loaded' );
-}, function (error) {
-console.error(error);
-});
+		loader.load('dog.glb', function (gltf) 
+		{
+		scene.add(gltf.scene);
+		gltf.scene.rotation.y = 20;
 
-function animate() {
-		requestAnimationFrame(animate);
-		renderer.render(scene, camera);
-}
+		}, 
+
+		function (xhr) 
+		{
+			console.log((xhr.loaded / xhr.total * 100) + '% loaded' );
+		}, 
+		function (error) 
+		{
+			console.error(error);
+		});
+
+		var loader = new THREE.GLTFLoader();
+		loader.load('cat.glb', function (gltf) 
+		{
+		scene.add(gltf.scene);
+		gltf.scene.rotation.y = 5;
+		gltf.scene.position.y = -75;
+		gltf.scene.scale.y = 3;
+		gltf.scene.scale.x = 3;
+		gltf.scene.scale.z = 3;
+
+
+		}, 
+
+		function (xhr) 
+		{
+			console.log((xhr.loaded / xhr.total * 100) + '% loaded' );
+		}, 
+		function (error) 
+		{
+			console.error(error);
+		});
+
+		var loader = new THREE.GLTFLoader();
+		loader.load('rabbit.glb', function (gltf) 
+		{
+		scene.add(gltf.scene);
+		gltf.scene.rotation.y = -2.5;
+		gltf.scene.position.y = 80;
+		gltf.scene.position.x = 40;
+		gltf.scene.scale.y = .75;
+		gltf.scene.scale.x = .75;
+		gltf.scene.scale.z = .75;
+
+
+		}, 
+
+		function (xhr) 
+		{
+			console.log((xhr.loaded / xhr.total * 100) + '% loaded' );
+		}, 
+		function (error) 
+		{
+			console.error(error);
+		});
+
+
+
+		function animate() 
+		{
+			requestAnimationFrame(animate);
+			renderer.render(scene, camera);
+		}
 	animate();
 
 

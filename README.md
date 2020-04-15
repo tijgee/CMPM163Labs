@@ -1,2 +1,2 @@
-![](images/github-part2image.png)
+![](Images/github-part2image.png)
 hi

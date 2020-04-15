@@ -1,2 +1,2 @@
-![](Images/github-part2image.png)
+❮img src="Images/part2image.png" width="100" ❯
 hi

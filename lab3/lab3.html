@@ -28,6 +28,15 @@ specular: 0x00ff00, shininess: 30 });
       			var cube = new THREE.Mesh( geometry, material );
      			scene.add(cube);
 
+     			//adding second cube
+     			var geometry2 = new THREE.BoxGeometry();
+     			var material2 = new THREE.MeshDistanceMaterial( {
+     			color: 0x35F3E2 
+     			});
+     			var cube2 = new THREE.Mesh(geometry2, material2);
+     			cube2.position.x = 3;
+     			scene.add(cube2);
+
 			// add the light
 			var light = new THREE.PointLight(0xffffff, 1, 1000);
 			light.position.set(10, 10, 10);
@@ -37,6 +46,8 @@ specular: 0x00ff00, shininess: 30 });
 				requestAnimationFrame(animate);
 				geometry.rotateX(0.01);
 				geometry.rotateY(0.01);
+				geometry2.rotateX(0.01);
+				geometry2.rotateY(0.01);
 				renderer.render(scene, camera);
 			}
 			animate();

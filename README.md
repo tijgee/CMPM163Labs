@@ -13,3 +13,5 @@ Cubes from left to right:
 
 Lab4:
 Cube1: Use texture and map #196
+Cube2: Use original material of Cube1
+Cube3: Use texture and map #176

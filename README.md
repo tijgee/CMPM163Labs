@@ -10,3 +10,6 @@ Cubes from left to right:
 2:Interpolating between red and yellow and x axis
 3:Standard cube with phong material
 4:cube with distance material, was not able to change color for some reason
+
+Lab4:
+Cube1: Use texture and map #196

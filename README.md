@@ -12,6 +12,13 @@ Cubes from left to right:
 4:cube with distance material, was not able to change color for some reason
 
 Lab4:
+24
+	a: x = 8(width of texture) * U
+	b: y = 8(height of texture) - v * 8(height of texture)
+	c: White Grid
+	
 Cube1: Use texture and map #196
 Cube2: Use original material of Cube1
 Cube3: Use texture and map #176
+Cube4: Used shader to make texture instead of THREE.js. Used #165
+Cube5: 

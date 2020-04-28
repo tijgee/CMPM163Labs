@@ -19,6 +19,7 @@ Lab4:<br>
 	b: y = 8(height of texture) - v * 8(height of texture)<br>
 	c: White Grid<br>
 	<br>
+Cubes Left to Right<br>
 Cube1: Use texture and map #196<br>
 Cube2: Use original material of Cube1<br>
 Cube3: Use texture and map #176<br>

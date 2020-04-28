@@ -1,10 +1,7 @@
-varying vec3 vUv;
-
-uniform vec3 colorX;
-uniform vec3 colorY;
-
+uniform sampler2D texture1;
+varying vec2 vUv;
 
 void main() {
-  
-	gl_FragColor = vec4(mix(colorX, colorY, vUv.x), 1.0);
+	// sample from the texture based on the uv coordinates
+gl_FragColor = texture2D(texture1, mod(vUv, 0.5));
 }

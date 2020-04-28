@@ -14,14 +14,15 @@ Cubes from left to right:<br>
 4:cube with distance material, was not able to change color for some reason<br>
 
 Lab4:<br>
+https://drive.google.com/file/d/1MvNTZ3Jo13ss9wm5LuRKReFZbVrpjb6K/view?usp=sharing<br>
 24<br>
 	a: x = 8(width of texture) * U<br>
 	b: y = 8(height of texture) - v * 8(height of texture)<br>
 	c: White Grid<br>
 	<br>
 Cubes Left to Right<br>
-Cube1: Use texture and map #196<br>
+Cube1: Use texture and map #196, followed doc instructions<br>
 Cube2: Use original material of Cube1<br>
-Cube3: Use texture and map #176<br>
+Cube3: Use texture and map #176 by following doc instructions<br>
 Cube4: Used shader to make texture instead of THREE.js. Used #165<br>
-Cube5: 
+Cube5: Same steps as Cube4 with #177. To complete the challenge I did modulo funciton by 0.5 in fragmentshader2.frag.

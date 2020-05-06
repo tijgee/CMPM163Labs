@@ -26,3 +26,7 @@ Cube2: Use original material of Cube1<br>
 Cube3: Use texture and map #176 by following doc instructions<br>
 Cube4: Used shader to make texture instead of THREE.js. Used #165<br>
 Cube5: Same steps as Cube4 with #177. To complete the challenge I did modulo funciton by 0.5 in fragmentshader2.frag.
+<br>
+<br>
+Lab5: <br>
+part 1 : https://drive.google.com/file/d/16qijW4XJTWDFtw5_HrXlFQc3BkvMPRqg/view?usp=sharing

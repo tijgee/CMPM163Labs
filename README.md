@@ -38,12 +38,20 @@ My Creation: https://drive.google.com/file/d/1cv06hCT-iMMupGdg_RZmz8BDK5_Qs8qZ/v
 I used what we learned in part a and b and attempted to create snowflakes falling down fast to create a snowstorm. 
 <br>
 <br>
-Lab 6:
+Lab 6 Part 1:
+<br>
+<img src="Images/Screenshot(19).png" height="100" >
+<br>
+<img src="Images/Smooth.jpg" height="100" >
+<br>
+I tried to make a material similar to the smoothie I had. I played around with the Albedo and color to replicate the inside of my drink. The material is on the sphere in the scene.
 <br>Spotlight:Light shines in a single direction and is affected by position and rotation
 <br>Area Light: Emits light from a side of a plane and only works when baked in a lightmap.
 <br>Point Light: Light shines in all directions. Is not affected by rotation but position is malleable.
 <br>Directional Light: Light shines in a single direction and is like the sun. Affects all objects. Direction is changed through rotation.
 <br>
 <br>
-Skybox: I  downloaded an asset from unity and added the material to the skybox.
+Skybox: I  downloaded an asset from unity and added the material to the skybox. It looks like the daytime.
+<br>
+Textures: I used the brick texture for the walls and a grassy bush texture for the floor.
 <br>

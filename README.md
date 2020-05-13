@@ -40,7 +40,7 @@ I used what we learned in part a and b and attempted to create snowflakes fallin
 <br>
 Lab 6 Part 1:
 <br>
-<img src="Images/Screenshot(19).png" height="100" >
+<img src="Images/Screenshot(19).png">
 <br>
 <img src="Images/Smooth.jpg" height="100" >
 <br>

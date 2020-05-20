@@ -55,3 +55,7 @@ Skybox: I  downloaded an asset from unity and added the material to the skybox. 
 <br>
 Textures: I used the brick texture for the walls and a grassy bush texture for the floor.
 <br>
+<br>
+Lab7:
+<br> Part A:
+<br> <img src ="Images/lab7a.png">

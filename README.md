@@ -64,3 +64,4 @@ Lab7:
 https://drive.google.com/file/d/1mzyDgu2RpM_aDjM8leIF8Mkei9IoqYII/view?usp=sharing
 <br>Part C:
 <br> https://drive.google.com/file/d/1CDF3qe4-afe-q1fq_aDOZiAOJI48SDUy/view?usp=sharing
+<br> could not contact partner

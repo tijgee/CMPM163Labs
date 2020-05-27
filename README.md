@@ -71,4 +71,4 @@ Lab8:
 <br>
 <img src="Images/philly.jpg">
 <br>
-<img src="Images/Screenshot_(21).png">
+<img src="Images/Screenshot (21).png">

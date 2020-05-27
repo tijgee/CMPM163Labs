@@ -68,7 +68,9 @@ https://drive.google.com/file/d/1mzyDgu2RpM_aDjM8leIF8Mkei9IoqYII/view?usp=shari
 <br>
 <br>
 Lab8:
+<br> I was interested in the city of Philadelphia. What struck me was the colors of blue and brown, a combination I did not know could match. This inspired me to look for textures that can replicate the color scheme of Philadelphia. 
 <br>
 <img src="Images/philly.jpg">
 <br>
 <img src="Images/Screenshot (21).png">
+<br> could not contact partner
